@@ -27,7 +27,7 @@ class Database {
   }
   mongo() {
     this.mongoConnection = mongoose.connect(
-      "mongodb://mongo:DF1D5HGf-4DHa6e24a62a2-F31e1d2BD@viaduct.proxy.rlwy.net:31831",
+      "mongodb://mongo:wJFUfSJpLwgMIbOnPDZCQhxzPpdVhHFU@viaduct.proxy.rlwy.net:58883",
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
