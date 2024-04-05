@@ -14,7 +14,7 @@ const upload = multer(multerConfig)
 const routes = new Router()
 
 routes.get("/", (request, response) => {
-  return response.json({ message: "Hello Stranger!" })
+  return response.json({ message: "Just testing!" })
 })
 
 routes.post("/users", UserController.store)
